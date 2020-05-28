@@ -1,2 +1,2 @@
-badge_maker("Arel")
-=> "Hello, my name is #{name}Arel."
+badge_maker(name)
+=> "Hello, my name is #{name}."
