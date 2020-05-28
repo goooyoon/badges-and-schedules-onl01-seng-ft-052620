@@ -10,10 +10,13 @@ end
 badge_messages
 end
 
-def assign_rooms(attendees)
- room_assignments = []
-  attendees.each do |attendees|
-  room_assignments.push("Hello, my name is #{attendees}.")
-end
-room_assignments
-end
+def assign_rooms(names)
+room_assignments=[]
+ n = 1
+  names.each_with_index do |name, index|
+    room_assignments.push("Hello, #{name}! You'll be assigned to room #{index+1}!")
+    n+=1
+  end
+  room_assignments
+  end
+  
