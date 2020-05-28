@@ -20,3 +20,6 @@ room_assignments=[]
   room_assignments
   end
   
+def printer(attendees)
+
+end
